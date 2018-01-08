@@ -11,7 +11,7 @@ ID_PAD = 0
 ID_UNK = 1
 ID_EOS = 2
 ID_GO = 3
-
+ID_GO2 = 4
 
 def load_dict(dict_path, max_vocab=None):
     logging.info("Try load dict from {}.".format(dict_path))
